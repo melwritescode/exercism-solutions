@@ -18,4 +18,8 @@ class Matrix
     int_matrix
   end
   
+  def columns
+    rows.transpose
+  end
+
 end
